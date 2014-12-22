@@ -1,0 +1,35 @@
+{
+  "name": "mixdown-streaming-cli",
+  "version": "1.0.0",
+  "description": "Delegate for running source-transform-output streams in a node.js mixdown CLI app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -u tdd test/tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixdown/mixdown-streaming-cli.git"
+  },
+  "keywords": [
+    "node.js",
+    "mixdown",
+    "cli",
+    "streams"
+  ],
+  "author": "Tommy Messbauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixdown/mixdown-streaming-cli/issues"
+  },
+  "homepage": "https://github.com/mixdown/mixdown-streaming-cli",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "memory-stream": "0.0.3",
+    "mixdown": "^3.0.0",
+    "mixdown-app": "^3.0.5",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "mixdown-cli": "0.0.3"
+  }
+}
