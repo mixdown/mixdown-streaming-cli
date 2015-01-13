@@ -1,6 +1,6 @@
 {
   "name": "mixdown-streaming-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delegate for running source-transform-output streams in a node.js mixdown CLI app.",
   "main": "index.js",
   "scripts": {
